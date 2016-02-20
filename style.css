@@ -165,8 +165,8 @@ nav ul li a {
   transition: border-bottom 0.1s ease-out;
 }
 nav ul li a:hover, nav ul li a.current {
-	border-bottom: 2px solid #00BCF2;
-	color: #00BCF2;
+	border-bottom: 2px solid #4B0082;
+	color: #4B0082;
 }
 
 /**** Dropdown ****/
