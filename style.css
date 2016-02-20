@@ -95,6 +95,7 @@ img {
     height: auto;
     max-width: 100%;
 }
+
 .alignleft {
 	float: left;
 	margin-right: 20px;
@@ -206,8 +207,14 @@ nav ul li:hover ul li a:hover, nav ul li:hover ul li a.current{
 ***************************************************/
 #featured {
 	background: url('images/featured.jpg') no-repeat;
+	background-size: cover;
 	margin-bottom: 20px;
+	width:auto;
+	height:auto;
+	max-width:MaxSize;
+	max-height:MaxSize;
 }
+
 #featured a{
 	display: block;
 	width: 940px;
@@ -233,7 +240,7 @@ nav ul li:hover ul li a:hover, nav ul li:hover ul li a.current{
   transition: background-color 0.3s ease-out;
 }
 #featured #featuredinfo:hover{
-		background-color: #00BCF2;
+		background-color: #4B0082;
 }
 #featuredinfo h1{
 	text-transform: uppercase;
@@ -429,7 +436,7 @@ table{
   transition: background-color 0.2s ease-out;
 }
 .post-info:hover{
-	background-color: #00BCF2;
+	background-color: #4B0082;
 }
 .author, .date, .comments {
 	color: #fff;
