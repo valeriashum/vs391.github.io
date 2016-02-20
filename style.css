@@ -475,6 +475,13 @@ table{
 	border-bottom: 1px solid #eee;
 	border-top: 1px solid #eee;
 }
+#content .title_video {
+	text-transform: capitalize;
+	margin: 0;
+	font-weight: bold;
+	font-size: 14px;
+	color: #222;
+}
 #content .post-title {
 	text-transform: uppercase;
 	margin-bottom: 0;
