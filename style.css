@@ -470,6 +470,11 @@ table{
 	margin-top: 0;
 	font-weight: normal;
 }
+#content .under_video {
+	width: 520px;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+}
 #content .post-title {
 	text-transform: uppercase;
 	margin-bottom: 0;
